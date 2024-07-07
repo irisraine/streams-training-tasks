@@ -79,7 +79,6 @@ public class PuttingIntoPractice {
         System.out.println("=== 8. Найти транзакцию с минимальной суммой. ===");
         Optional<Transaction> transactionWithMinSum = transactions.stream()
                 .min(Comparator.comparing(Transaction::getValue));
-
         System.out.println(transactionWithMinSum.get());
     }
 }
