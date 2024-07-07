@@ -1,4 +1,4 @@
-# Handwritten collections
+# Stream API Tasks
 
 ## Description
 
